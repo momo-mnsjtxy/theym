@@ -15,7 +15,7 @@ jobs:
 
     - name: mv
       run: |
-        mv mv * .* ../
+        mv * .* ../
         
     - name: Configure git
       run: |
