@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LaravelQuerySettings">
+    <option name="filterDataSources" value="true" />
+    <option name="filteredDataSources">
+      <set>
+        <option value="84d7ff21-79ae-4a92-a920-90958c5cc602&lt;-/lq/-&gt;dns" />
+      </set>
+    </option>
+    <option name="ignoreSettings" value="true" />
+  </component>
+</project>
