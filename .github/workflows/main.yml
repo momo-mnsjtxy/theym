@@ -1,0 +1,19 @@
+name: Unzip hw.zip
+
+on:
+  push:
+    branches:
+      - main  # 触发工作流的分支
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Unzip hw.zip
+      run: |
+        sudo apt-get install unzip
+        unzip hw.zip -d ./
